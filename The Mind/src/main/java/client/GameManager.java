@@ -49,7 +49,6 @@ public class GameManager {
     }
 
     private void start() {
-       // final String[] message = {""};
         do {
             messageGetter = new Thread(() -> {
                 message = transmitter.getMessage();
